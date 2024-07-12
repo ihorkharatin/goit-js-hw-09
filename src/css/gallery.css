@@ -25,8 +25,8 @@
 }
 
 body .sl-wrapper .sl-image .sl-caption {
-  font-family: 'Dancing Script', cursive;
-  font-size: 34px;
-  text-align: center;
+  /* font-family: 'Dancing Script', cursive; */
+  font-size: 20px;
+  text-align: start;
   background: rgba(0, 0, 0, 0.6);
 }
