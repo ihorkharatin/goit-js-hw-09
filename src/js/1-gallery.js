@@ -98,5 +98,6 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
   scrollZoomFactor: 0.1,
   spinner: true,
-  nav: true,
+  preloading: true,
+  download: 'Download',
 });
