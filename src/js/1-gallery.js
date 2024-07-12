@@ -94,8 +94,9 @@ function renderImages() {
 renderImages();
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  // _________________________________________________options_for_slb__
   captionsData: 'alt',
   captionDelay: 250,
   scrollZoomFactor: 0.1,
+  spinner: true,
+  nav: true,
 });
